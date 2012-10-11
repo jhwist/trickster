@@ -50,7 +50,7 @@ transition:: number of milliseconds to transition to the *next* slide.  The defa
 == Slide Types
 
 == BULLETS
-The first line is the "title" if this slide, rendered in an +H1+.  The remaining are bullets.  If a bullet line is preceded with a <tt>*</tt>, <tt>-</tt>, or <tt>+</tt>, that bullet character is omitted automatically.
+The first line is the "title" of this slide, rendered in an +H1+.  The remaining are bullets.  If a bullet line is preceded with a <tt>*</tt>, <tt>-</tt>, or <tt>+</tt>, that bullet character is omitted automatically.
 
 == IMAGE
 The first line is the url to the image to show.  Trickster will size the image down only if it is too big, preserving its aspect ratio.
@@ -111,9 +111,9 @@ The second, and more useful, point of customization is +styles.css+ or +styles.s
 
 === Styling Recommendations
 
-* Prefer 'em' over explicit sizes, as this will aloww your sizing choices to work at any size (remember that Trickster tries to fit your content to the screen)
+* Prefer 'em' over explicit sizes, as this will allow your sizing choices to work at any size (remember that Trickster tries to fit your content to the screen)
 * The <tt>BODY</tt> element will be given the class of the currently-displayed slide, so if you want to, for example, change the background color of a slide based on its type, apply styles to <tt>body.SLIDE_TYPE</tt> and not <tt>section.SLIDE_TYPE</tt>
-* If you want to customzie the syntax highlighting, you can.  <tt>trickster update</tt> will leave it alone.  If you want to build a more invovled highlighting theme, use the "custom" theme when you create your presentation or migrate to it via <tt>trickster update theme -t custom</tt>
+* If you want to customize the syntax highlighting, you can.  <tt>trickster update</tt> will leave it alone.  If you want to build a more invovled highlighting theme, use the "custom" theme when you create your presentation or migrate to it via <tt>trickster update theme -t custom</tt>
 
 == Delivering the Presentation
 
